@@ -1,0 +1,1251 @@
+[
+    {
+        "path": "/uniprot",
+        "name": "uniprot",
+        "type": "None",
+        "documentation": "Describes a collection of UniProtKB entries.",
+        "attributes": []
+    },
+    {
+        "path": "/uniprot",
+        "name": null,
+        "type": "None",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/uniprot",
+        "name": null,
+        "type": "None",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "",
+        "name": null,
+        "type": "None",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "",
+        "name": null,
+        "type": "None",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/entry",
+        "name": "entry",
+        "type": "None",
+        "documentation": "Describes a UniProtKB entry.",
+        "attributes": [
+            {
+                "name": "dataset",
+                "type": "None",
+                "use": "required"
+            },
+            {
+                "name": "created",
+                "type": "xs:date",
+                "use": "required"
+            },
+            {
+                "name": "modified",
+                "type": "xs:date",
+                "use": "required"
+            },
+            {
+                "name": "version",
+                "type": "xs:int",
+                "use": "required"
+            }
+        ]
+    },
+    {
+        "path": "/entry/accession",
+        "name": "accession",
+        "type": "xs:string",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/entry/name",
+        "name": "name",
+        "type": "xs:string",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/entry/protein",
+        "name": "protein",
+        "type": "proteinType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/entry/gene",
+        "name": "gene",
+        "type": "geneType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/entry/organism",
+        "name": "organism",
+        "type": "organismType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/entry/organismHost",
+        "name": "organismHost",
+        "type": "organismType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/entry/geneLocation",
+        "name": "geneLocation",
+        "type": "geneLocationType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/entry/reference",
+        "name": "reference",
+        "type": "referenceType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/entry/comment",
+        "name": "comment",
+        "type": "commentType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/entry/dbReference",
+        "name": "dbReference",
+        "type": "dbReferenceType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/entry/proteinExistence",
+        "name": "proteinExistence",
+        "type": "proteinExistenceType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/entry/keyword",
+        "name": "keyword",
+        "type": "keywordType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/entry/feature",
+        "name": "feature",
+        "type": "featureType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/entry/evidence",
+        "name": "evidence",
+        "type": "evidenceType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/entry/sequence",
+        "name": "sequence",
+        "type": "sequenceType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/accession",
+        "name": "accession",
+        "type": "xs:string",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/name",
+        "name": "name",
+        "type": "xs:string",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/protein",
+        "name": "protein",
+        "type": "proteinType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/gene",
+        "name": "gene",
+        "type": "geneType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/organism",
+        "name": "organism",
+        "type": "organismType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/organismHost",
+        "name": "organismHost",
+        "type": "organismType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/geneLocation",
+        "name": "geneLocation",
+        "type": "geneLocationType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/reference",
+        "name": "reference",
+        "type": "referenceType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/comment",
+        "name": "comment",
+        "type": "commentType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/dbReference",
+        "name": "dbReference",
+        "type": "dbReferenceType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/proteinExistence",
+        "name": "proteinExistence",
+        "type": "proteinExistenceType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/keyword",
+        "name": "keyword",
+        "type": "keywordType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/feature",
+        "name": "feature",
+        "type": "featureType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/evidence",
+        "name": "evidence",
+        "type": "evidenceType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/sequence",
+        "name": "sequence",
+        "type": "sequenceType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/copyright",
+        "name": "copyright",
+        "type": "xs:string",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/domain",
+        "name": "domain",
+        "type": "None",
+        "documentation": "Describes names of \"domains\".\n                    Equivalent to the flat file DE-line Includes: section.",
+        "attributes": []
+    },
+    {
+        "path": "/component",
+        "name": "component",
+        "type": "None",
+        "documentation": "Describes names of processed products.\n                    Equivalent to the flat file DE-line Contains: section.",
+        "attributes": []
+    },
+    {
+        "path": "/recommendedName",
+        "name": "recommendedName",
+        "type": "None",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/recommendedName/fullName",
+        "name": "fullName",
+        "type": "evidencedStringType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/recommendedName/shortName",
+        "name": "shortName",
+        "type": "evidencedStringType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/recommendedName/ecNumber",
+        "name": "ecNumber",
+        "type": "evidencedStringType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/fullName",
+        "name": "fullName",
+        "type": "evidencedStringType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/shortName",
+        "name": "shortName",
+        "type": "evidencedStringType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/ecNumber",
+        "name": "ecNumber",
+        "type": "evidencedStringType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/alternativeName",
+        "name": "alternativeName",
+        "type": "None",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/alternativeName/fullName",
+        "name": "fullName",
+        "type": "evidencedStringType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/alternativeName/shortName",
+        "name": "shortName",
+        "type": "evidencedStringType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/alternativeName/ecNumber",
+        "name": "ecNumber",
+        "type": "evidencedStringType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/fullName",
+        "name": "fullName",
+        "type": "evidencedStringType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/shortName",
+        "name": "shortName",
+        "type": "evidencedStringType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/ecNumber",
+        "name": "ecNumber",
+        "type": "evidencedStringType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/submittedName",
+        "name": "submittedName",
+        "type": "None",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/submittedName/fullName",
+        "name": "fullName",
+        "type": "evidencedStringType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/submittedName/ecNumber",
+        "name": "ecNumber",
+        "type": "evidencedStringType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/fullName",
+        "name": "fullName",
+        "type": "evidencedStringType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/ecNumber",
+        "name": "ecNumber",
+        "type": "evidencedStringType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/allergenName",
+        "name": "allergenName",
+        "type": "evidencedStringType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/biotechName",
+        "name": "biotechName",
+        "type": "evidencedStringType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/cdAntigenName",
+        "name": "cdAntigenName",
+        "type": "evidencedStringType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/innName",
+        "name": "innName",
+        "type": "evidencedStringType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/name",
+        "name": "name",
+        "type": "geneNameType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/name",
+        "name": "name",
+        "type": "organismNameType",
+        "documentation": "Describes the names of the source organism.\n                    Equivalent to the flat file OS-line.",
+        "attributes": []
+    },
+    {
+        "path": "/dbReference",
+        "name": "dbReference",
+        "type": "dbReferenceType",
+        "documentation": "Describes a cross-reference to the NCBI taxonomy database.\n                    Equivalent to the flat file OX-line.",
+        "attributes": []
+    },
+    {
+        "path": "/lineage",
+        "name": "lineage",
+        "type": "None",
+        "documentation": "Describes the lineage of the source organism.\n                    Equivalent to the flat file OC-line.",
+        "attributes": []
+    },
+    {
+        "path": "/lineage/taxon",
+        "name": "taxon",
+        "type": "xs:string",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/taxon",
+        "name": "taxon",
+        "type": "xs:string",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/name",
+        "name": "name",
+        "type": "statusType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/citation",
+        "name": "citation",
+        "type": "citationType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/title",
+        "name": "title",
+        "type": "xs:string",
+        "documentation": "Describes the title of a citation.\n                    Equivalent to the flat file RT-line.",
+        "attributes": []
+    },
+    {
+        "path": "/editorList",
+        "name": "editorList",
+        "type": "nameListType",
+        "documentation": "Describes the editors of a book (only used for books).\n                    Equivalent to part of the flat file RL-line of books.",
+        "attributes": []
+    },
+    {
+        "path": "/authorList",
+        "name": "authorList",
+        "type": "nameListType",
+        "documentation": "Describes the authors of a citation.\n                    Equivalent to the flat file RA-line.",
+        "attributes": []
+    },
+    {
+        "path": "/locator",
+        "name": "locator",
+        "type": "xs:string",
+        "documentation": "Describes the location (URL) of an online journal article.\n                    No flat file equivalent.",
+        "attributes": []
+    },
+    {
+        "path": "/dbReference",
+        "name": "dbReference",
+        "type": "dbReferenceType",
+        "documentation": "Describes cross-references to bibliography databases (MEDLINE, PubMed, AGRICOLA) or other online resources (DOI).\n                    Equivalent to the flat file RX-line.",
+        "attributes": []
+    },
+    {
+        "path": "/consortium",
+        "name": "consortium",
+        "type": "consortiumType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/person",
+        "name": "person",
+        "type": "personType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/scope",
+        "name": "scope",
+        "type": "xs:string",
+        "documentation": "Describes the scope of a citation.\n                    Equivalent to the flat file RP-line.",
+        "attributes": []
+    },
+    {
+        "path": "/source",
+        "name": "source",
+        "type": "sourceDataType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/strain",
+        "name": "strain",
+        "type": "None",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/plasmid",
+        "name": "plasmid",
+        "type": "None",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/transposon",
+        "name": "transposon",
+        "type": "None",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/tissue",
+        "name": "tissue",
+        "type": "None",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/molecule",
+        "name": "molecule",
+        "type": "moleculeType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/reaction",
+        "name": "reaction",
+        "type": "reactionType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/physiologicalReaction",
+        "name": "physiologicalReaction",
+        "type": "physiologicalReactionType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/cofactor",
+        "name": "cofactor",
+        "type": "cofactorType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/subcellularLocation",
+        "name": "subcellularLocation",
+        "type": "subcellularLocationType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/conflict",
+        "name": "conflict",
+        "type": "None",
+        "documentation": "Used in 'sequence caution' annotations.",
+        "attributes": [
+            {
+                "name": "type",
+                "type": "None",
+                "use": "required"
+            },
+            {
+                "name": "ref",
+                "type": "xs:string",
+                "use": "optional"
+            }
+        ]
+    },
+    {
+        "path": "/conflict/sequence",
+        "name": "sequence",
+        "type": "None",
+        "documentation": "No documentation",
+        "attributes": [
+            {
+                "name": "resource",
+                "type": "None",
+                "use": "required"
+            },
+            {
+                "name": "id",
+                "type": "xs:string",
+                "use": "required"
+            },
+            {
+                "name": "version",
+                "type": "xs:int",
+                "use": "optional"
+            }
+        ]
+    },
+    {
+        "path": "/sequence",
+        "name": "sequence",
+        "type": "None",
+        "documentation": "No documentation",
+        "attributes": [
+            {
+                "name": "resource",
+                "type": "None",
+                "use": "required"
+            },
+            {
+                "name": "id",
+                "type": "xs:string",
+                "use": "required"
+            },
+            {
+                "name": "version",
+                "type": "xs:int",
+                "use": "optional"
+            }
+        ]
+    },
+    {
+        "path": "/link",
+        "name": "link",
+        "type": "None",
+        "documentation": "Used in 'online information' annotations.",
+        "attributes": [
+            {
+                "name": "uri",
+                "type": "xs:anyURI",
+                "use": "required"
+            }
+        ]
+    },
+    {
+        "path": "/event",
+        "name": "event",
+        "type": "eventType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/isoform",
+        "name": "isoform",
+        "type": "isoformType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/interactant",
+        "name": "interactant",
+        "type": "interactantType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/organismsDiffer",
+        "name": "organismsDiffer",
+        "type": "xs:boolean",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/experiments",
+        "name": "experiments",
+        "type": "xs:int",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/disease",
+        "name": "disease",
+        "type": "None",
+        "documentation": "Used in 'disease' annotations.",
+        "attributes": [
+            {
+                "name": "id",
+                "type": "xs:string",
+                "use": "required"
+            }
+        ]
+    },
+    {
+        "path": "/disease/name",
+        "name": "name",
+        "type": "xs:string",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/disease/acronym",
+        "name": "acronym",
+        "type": "xs:string",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/disease/description",
+        "name": "description",
+        "type": "xs:string",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/disease/dbReference",
+        "name": "dbReference",
+        "type": "dbReferenceType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/name",
+        "name": "name",
+        "type": "xs:string",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/acronym",
+        "name": "acronym",
+        "type": "xs:string",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/description",
+        "name": "description",
+        "type": "xs:string",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/dbReference",
+        "name": "dbReference",
+        "type": "dbReferenceType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/location",
+        "name": "location",
+        "type": "locationType",
+        "documentation": "Used in 'mass spectrometry' and 'sequence caution' annotations.",
+        "attributes": []
+    },
+    {
+        "path": "/text",
+        "name": "text",
+        "type": "evidencedStringType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/absorption",
+        "name": "absorption",
+        "type": "None",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/absorption/max",
+        "name": "max",
+        "type": "evidencedStringType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/absorption/text",
+        "name": "text",
+        "type": "evidencedStringType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/max",
+        "name": "max",
+        "type": "evidencedStringType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/text",
+        "name": "text",
+        "type": "evidencedStringType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/kinetics",
+        "name": "kinetics",
+        "type": "None",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/kinetics/KM",
+        "name": "KM",
+        "type": "evidencedStringType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/kinetics/Vmax",
+        "name": "Vmax",
+        "type": "evidencedStringType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/kinetics/text",
+        "name": "text",
+        "type": "evidencedStringType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/KM",
+        "name": "KM",
+        "type": "evidencedStringType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/Vmax",
+        "name": "Vmax",
+        "type": "evidencedStringType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/text",
+        "name": "text",
+        "type": "evidencedStringType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/phDependence",
+        "name": "phDependence",
+        "type": "None",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/phDependence/text",
+        "name": "text",
+        "type": "evidencedStringType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/text",
+        "name": "text",
+        "type": "evidencedStringType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/redoxPotential",
+        "name": "redoxPotential",
+        "type": "None",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/redoxPotential/text",
+        "name": "text",
+        "type": "evidencedStringType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/text",
+        "name": "text",
+        "type": "evidencedStringType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/temperatureDependence",
+        "name": "temperatureDependence",
+        "type": "None",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/temperatureDependence/text",
+        "name": "text",
+        "type": "evidencedStringType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/text",
+        "name": "text",
+        "type": "evidencedStringType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/text",
+        "name": "text",
+        "type": "xs:string",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/dbReference",
+        "name": "dbReference",
+        "type": "dbReferenceType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/dbReference",
+        "name": "dbReference",
+        "type": "dbReferenceType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/name",
+        "name": "name",
+        "type": "xs:string",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/dbReference",
+        "name": "dbReference",
+        "type": "dbReferenceType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/location",
+        "name": "location",
+        "type": "evidencedStringType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/topology",
+        "name": "topology",
+        "type": "evidencedStringType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/orientation",
+        "name": "orientation",
+        "type": "evidencedStringType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/id",
+        "name": "id",
+        "type": "xs:string",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/name",
+        "name": "name",
+        "type": "None",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/sequence",
+        "name": "sequence",
+        "type": "None",
+        "documentation": "No documentation",
+        "attributes": [
+            {
+                "name": "type",
+                "type": "None",
+                "use": "required"
+            },
+            {
+                "name": "ref",
+                "type": "xs:string",
+                "use": "optional"
+            }
+        ]
+    },
+    {
+        "path": "/text",
+        "name": "text",
+        "type": "evidencedStringType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/id",
+        "name": "id",
+        "type": "xs:string",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/label",
+        "name": "label",
+        "type": "xs:string",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/dbReference",
+        "name": "dbReference",
+        "type": "dbReferenceType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/molecule",
+        "name": "molecule",
+        "type": "moleculeType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/property",
+        "name": "property",
+        "type": "propertyType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/original",
+        "name": "original",
+        "type": "xs:string",
+        "documentation": "Describes the original sequence in annotations that describe natural or artifical sequence variations.",
+        "attributes": []
+    },
+    {
+        "path": "/variation",
+        "name": "variation",
+        "type": "xs:string",
+        "documentation": "Describes the variant sequence in annotations that describe natural or artifical sequence variations.",
+        "attributes": []
+    },
+    {
+        "path": "/location",
+        "name": "location",
+        "type": "locationType",
+        "documentation": "Describes the sequence coordinates of the annotation.",
+        "attributes": []
+    },
+    {
+        "path": "/ligand",
+        "name": "ligand",
+        "type": "ligandType",
+        "documentation": "Describes the chemical entity that is bound in annotations that describe binding sites.",
+        "attributes": []
+    },
+    {
+        "path": "/ligandPart",
+        "name": "ligandPart",
+        "type": "ligandPartType",
+        "documentation": "Describes the specific part of a molecule that is bound in annotations that describe binding sites.",
+        "attributes": []
+    },
+    {
+        "path": "/begin",
+        "name": "begin",
+        "type": "positionType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/end",
+        "name": "end",
+        "type": "positionType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/position",
+        "name": "position",
+        "type": "positionType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/name",
+        "name": "name",
+        "type": "xs:string",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/dbReference",
+        "name": "dbReference",
+        "type": "dbReferenceType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/label",
+        "name": "label",
+        "type": "xs:string",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/note",
+        "name": "note",
+        "type": "xs:string",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/name",
+        "name": "name",
+        "type": "xs:string",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/dbReference",
+        "name": "dbReference",
+        "type": "dbReferenceType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/label",
+        "name": "label",
+        "type": "xs:string",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/note",
+        "name": "note",
+        "type": "xs:string",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/source",
+        "name": "source",
+        "type": "sourceType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/importedFrom",
+        "name": "importedFrom",
+        "type": "importedFromType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/dbReference",
+        "name": "dbReference",
+        "type": "dbReferenceType",
+        "documentation": "No documentation",
+        "attributes": []
+    },
+    {
+        "path": "/dbReference",
+        "name": "dbReference",
+        "type": "dbReferenceType",
+        "documentation": "No documentation",
+        "attributes": []
+    }
+]
